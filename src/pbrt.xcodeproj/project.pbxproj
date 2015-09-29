@@ -7,6 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FB27F7B1BBB4DD200FAD1C6 /* bvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB54117030DE00A8A49E /* bvh.cpp */; };
+		5FB27F7C1BBB4DD200FAD1C6 /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB56117030DE00A8A49E /* grid.cpp */; };
+		5FB27F7D1BBB4DD200FAD1C6 /* kdtreeaccel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB58117030DE00A8A49E /* kdtreeaccel.cpp */; };
+		5FB27F7E1BBB4DD200FAD1C6 /* environment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB5E117030E500A8A49E /* environment.cpp */; };
+		5FB27F7F1BBB4DD200FAD1C6 /* orthographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB60117030E500A8A49E /* orthographic.cpp */; };
+		5FB27F801BBB4DD200FAD1C6 /* perspective.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB62117030E500A8A49E /* perspective.cpp */; };
+		5FB27F811BBB4DD200FAD1C6 /* api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB68117030F200A8A49E /* api.cpp */; };
+		5FB27F821BBB4DD200FAD1C6 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB6A117030F200A8A49E /* camera.cpp */; };
+		5FB27F831BBB4DD200FAD1C6 /* diffgeom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB6C117030F200A8A49E /* diffgeom.cpp */; };
+		5FB27F841BBB4DD200FAD1C6 /* dtrace.d in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB6E117030F200A8A49E /* dtrace.d */; };
+		5FB27F851BBB4DD200FAD1C6 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB6F117030F200A8A49E /* error.cpp */; };
+		5FB27F861BBB4DD200FAD1C6 /* film.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB71117030F200A8A49E /* film.cpp */; };
+		5FB27F871BBB4DD200FAD1C6 /* filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB73117030F200A8A49E /* filter.cpp */; };
+		5FB27F881BBB4DD200FAD1C6 /* floatfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB75117030F200A8A49E /* floatfile.cpp */; };
+		5FB27F891BBB4DD200FAD1C6 /* geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB77117030F200A8A49E /* geometry.cpp */; };
+		5FB27F8A1BBB4DD200FAD1C6 /* imageio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB79117030F200A8A49E /* imageio.cpp */; };
+		5FB27F8B1BBB4DD200FAD1C6 /* integrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB7B117030F200A8A49E /* integrator.cpp */; };
+		5FB27F8C1BBB4DD200FAD1C6 /* intersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB7D117030F200A8A49E /* intersection.cpp */; };
+		5FB27F8D1BBB4DD200FAD1C6 /* light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB80117030F200A8A49E /* light.cpp */; };
+		5FB27F8E1BBB4DD200FAD1C6 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB82117030F200A8A49E /* material.cpp */; };
+		5FB27F8F1BBB4DD200FAD1C6 /* memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB84117030F200A8A49E /* memory.cpp */; };
+		5FB27F901BBB4DD200FAD1C6 /* montecarlo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB87117030F200A8A49E /* montecarlo.cpp */; };
+		5FB27F911BBB4DD200FAD1C6 /* parallel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB8A117030F200A8A49E /* parallel.cpp */; };
+		5FB27F921BBB4DD200FAD1C6 /* paramset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB8C117030F200A8A49E /* paramset.cpp */; };
+		5FB27F931BBB4DD200FAD1C6 /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB8E117030F200A8A49E /* parser.cpp */; };
+		5FB27F941BBB4DD200FAD1C6 /* pbrtlex.ll in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB91117030F200A8A49E /* pbrtlex.ll */; };
+		5FB27F951BBB4DD200FAD1C6 /* primitive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB93117030F200A8A49E /* primitive.cpp */; };
+		5FB27F961BBB4DD200FAD1C6 /* probes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB95117030F200A8A49E /* probes.cpp */; };
+		5FB27F971BBB4DD200FAD1C6 /* progressreporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB97117030F200A8A49E /* progressreporter.cpp */; };
+		5FB27F981BBB4DD200FAD1C6 /* quaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB99117030F200A8A49E /* quaternion.cpp */; };
+		5FB27F991BBB4DD200FAD1C6 /* reflection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB9B117030F200A8A49E /* reflection.cpp */; };
+		5FB27F9A1BBB4DD200FAD1C6 /* renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB9D117030F200A8A49E /* renderer.cpp */; };
+		5FB27F9B1BBB4DD200FAD1C6 /* rng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB9F117030F200A8A49E /* rng.cpp */; };
+		5FB27F9C1BBB4DD200FAD1C6 /* sampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBA1117030F200A8A49E /* sampler.cpp */; };
+		5FB27F9D1BBB4DD200FAD1C6 /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBA3117030F200A8A49E /* scene.cpp */; };
+		5FB27F9E1BBB4DD200FAD1C6 /* sh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBA5117030F200A8A49E /* sh.cpp */; };
+		5FB27F9F1BBB4DD200FAD1C6 /* shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBA7117030F200A8A49E /* shape.cpp */; };
+		5FB27FA01BBB4DD200FAD1C6 /* shrots.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBA9117030F200A8A49E /* shrots.cpp */; };
+		5FB27FA11BBB4DD200FAD1C6 /* spectrum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBAA117030F200A8A49E /* spectrum.cpp */; };
+		5FB27FA21BBB4DD200FAD1C6 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBAC117030F200A8A49E /* texture.cpp */; };
+		5FB27FA31BBB4DD200FAD1C6 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBAE117030F200A8A49E /* timer.cpp */; };
+		5FB27FA41BBB4DD200FAD1C6 /* transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBB0117030F200A8A49E /* transform.cpp */; };
+		5FB27FA51BBB4DD200FAD1C6 /* volume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBB2117030F200A8A49E /* volume.cpp */; };
+		5FB27FA61BBB4DD200FAD1C6 /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBDA1170310E00A8A49E /* image.cpp */; };
+		5FB27FA71BBB4DD200FAD1C6 /* box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBDD1170310E00A8A49E /* box.cpp */; };
+		5FB27FA81BBB4DD200FAD1C6 /* gaussian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBDF1170310E00A8A49E /* gaussian.cpp */; };
+		5FB27FA91BBB4DD200FAD1C6 /* mitchell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBE11170310E00A8A49E /* mitchell.cpp */; };
+		5FB27FAA1BBB4DD200FAD1C6 /* sinc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBE31170310E00A8A49E /* sinc.cpp */; };
+		5FB27FAB1BBB4DD200FAD1C6 /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBE51170310E00A8A49E /* triangle.cpp */; };
+		5FB27FAC1BBB4DD200FAD1C6 /* ambientocclusion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBE81170310E00A8A49E /* ambientocclusion.cpp */; };
+		5FB27FAD1BBB4DD200FAD1C6 /* diffuseprt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBEA1170310E00A8A49E /* diffuseprt.cpp */; };
+		5FB27FAE1BBB4DD200FAD1C6 /* dipolesubsurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBEC1170310E00A8A49E /* dipolesubsurface.cpp */; };
+		5FB27FAF1BBB4DD200FAD1C6 /* directlighting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBEE1170310E00A8A49E /* directlighting.cpp */; };
+		5FB27FB01BBB4DD200FAD1C6 /* emission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBF01170310E00A8A49E /* emission.cpp */; };
+		5FB27FB11BBB4DD200FAD1C6 /* glossyprt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBF21170310E00A8A49E /* glossyprt.cpp */; };
+		5FB27FB21BBB4DD200FAD1C6 /* igi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBF41170310E00A8A49E /* igi.cpp */; };
+		5FB27FB31BBB4DD200FAD1C6 /* irradiancecache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBF61170310E00A8A49E /* irradiancecache.cpp */; };
+		5FB27FB41BBB4DD200FAD1C6 /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBF81170310E00A8A49E /* path.cpp */; };
+		5FB27FB51BBB4DD200FAD1C6 /* photonmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBFA1170310E00A8A49E /* photonmap.cpp */; };
+		5FB27FB61BBB4DD200FAD1C6 /* single.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBFC1170310E00A8A49E /* single.cpp */; };
+		5FB27FB71BBB4DD200FAD1C6 /* useprobes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EBFE1170310E00A8A49E /* useprobes.cpp */; };
+		5FB27FB81BBB4DD200FAD1C6 /* whitted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC001170310E00A8A49E /* whitted.cpp */; };
+		5FB27FB91BBB4DD200FAD1C6 /* diffuse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC031170310E00A8A49E /* diffuse.cpp */; };
+		5FB27FBA1BBB4DD200FAD1C6 /* distant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC051170310E00A8A49E /* distant.cpp */; };
+		5FB27FBB1BBB4DD200FAD1C6 /* goniometric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC091170310E00A8A49E /* goniometric.cpp */; };
+		5FB27FBC1BBB4DD200FAD1C6 /* infinite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC0B1170310E00A8A49E /* infinite.cpp */; };
+		5FB27FBD1BBB4DD200FAD1C6 /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC0D1170310E00A8A49E /* point.cpp */; };
+		5FB27FBE1BBB4DD200FAD1C6 /* projection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC0F1170310E00A8A49E /* projection.cpp */; };
+		5FB27FBF1BBB4DD200FAD1C6 /* spot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC111170310E00A8A49E /* spot.cpp */; };
+		5FB27FC01BBB4DD200FAD1C6 /* pbrt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC141170310E00A8A49E /* pbrt.cpp */; };
+		5FB27FC11BBB4DD200FAD1C6 /* glass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC161170310E00A8A49E /* glass.cpp */; };
+		5FB27FC21BBB4DD200FAD1C6 /* kdsubsurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC181170310E00A8A49E /* kdsubsurface.cpp */; };
+		5FB27FC31BBB4DD200FAD1C6 /* matte.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC1A1170310E00A8A49E /* matte.cpp */; };
+		5FB27FC41BBB4DD200FAD1C6 /* measured.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC1C1170310E00A8A49E /* measured.cpp */; };
+		5FB27FC51BBB4DD200FAD1C6 /* metal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC1E1170310E00A8A49E /* metal.cpp */; };
+		5FB27FC61BBB4DD200FAD1C6 /* mirror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC201170310E00A8A49E /* mirror.cpp */; };
+		5FB27FC71BBB4DD200FAD1C6 /* mixmat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC221170310E00A8A49E /* mixmat.cpp */; };
+		5FB27FC81BBB4DD200FAD1C6 /* plastic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC241170310E00A8A49E /* plastic.cpp */; };
+		5FB27FC91BBB4DD200FAD1C6 /* substrate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC261170310E00A8A49E /* substrate.cpp */; };
+		5FB27FCA1BBB4DD200FAD1C6 /* subsurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC281170310E00A8A49E /* subsurface.cpp */; };
+		5FB27FCB1BBB4DD200FAD1C6 /* translucent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC2A1170310E00A8A49E /* translucent.cpp */; };
+		5FB27FCC1BBB4DD200FAD1C6 /* uber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC2C1170310E00A8A49E /* uber.cpp */; };
+		5FB27FCD1BBB4DD200FAD1C6 /* aggregatetest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC301170310E00A8A49E /* aggregatetest.cpp */; };
+		5FB27FCE1BBB4DD200FAD1C6 /* createprobes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC321170310E00A8A49E /* createprobes.cpp */; };
+		5FB27FCF1BBB4DD200FAD1C6 /* metropolis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC341170310E00A8A49E /* metropolis.cpp */; };
+		5FB27FD01BBB4DD200FAD1C6 /* samplerrenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC361170310E00A8A49E /* samplerrenderer.cpp */; };
+		5FB27FD11BBB4DD200FAD1C6 /* surfacepoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC381170310E00A8A49E /* surfacepoints.cpp */; };
+		5FB27FD21BBB4DD200FAD1C6 /* adaptive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC3B1170310E00A8A49E /* adaptive.cpp */; };
+		5FB27FD31BBB4DD200FAD1C6 /* bestcandidate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC3D1170310E00A8A49E /* bestcandidate.cpp */; };
+		5FB27FD41BBB4DD200FAD1C6 /* halton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC3F1170310E00A8A49E /* halton.cpp */; };
+		5FB27FD51BBB4DD200FAD1C6 /* lowdiscrepancy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC411170310E00A8A49E /* lowdiscrepancy.cpp */; };
+		5FB27FD61BBB4DD200FAD1C6 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC431170310E00A8A49E /* random.cpp */; };
+		5FB27FD71BBB4DD200FAD1C6 /* stratified.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC461170310E00A8A49E /* stratified.cpp */; };
+		5FB27FD81BBB4DD200FAD1C6 /* cone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC491170310E00A8A49E /* cone.cpp */; };
+		5FB27FD91BBB4DD200FAD1C6 /* cylinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC4B1170310E00A8A49E /* cylinder.cpp */; };
+		5FB27FDA1BBB4DD200FAD1C6 /* disk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC4D1170310E00A8A49E /* disk.cpp */; };
+		5FB27FDB1BBB4DD200FAD1C6 /* heightfield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC4F1170310E00A8A49E /* heightfield.cpp */; };
+		5FB27FDC1BBB4DD200FAD1C6 /* hyperboloid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC511170310E00A8A49E /* hyperboloid.cpp */; };
+		5FB27FDD1BBB4DD200FAD1C6 /* loopsubdiv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC531170310E00A8A49E /* loopsubdiv.cpp */; };
+		5FB27FDE1BBB4DD200FAD1C6 /* nurbs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC551170310E00A8A49E /* nurbs.cpp */; };
+		5FB27FDF1BBB4DD200FAD1C6 /* paraboloid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC571170310E00A8A49E /* paraboloid.cpp */; };
+		5FB27FE01BBB4DD200FAD1C6 /* sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC591170310E00A8A49E /* sphere.cpp */; };
+		5FB27FE11BBB4DD200FAD1C6 /* trianglemesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC5B1170310E00A8A49E /* trianglemesh.cpp */; };
+		5FB27FE21BBB4DD200FAD1C6 /* bilerp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC5E1170310E00A8A49E /* bilerp.cpp */; };
+		5FB27FE31BBB4DD200FAD1C6 /* checkerboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC601170310E00A8A49E /* checkerboard.cpp */; };
+		5FB27FE41BBB4DD200FAD1C6 /* constant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC621170310E00A8A49E /* constant.cpp */; };
+		5FB27FE51BBB4DD200FAD1C6 /* dots.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC641170310E00A8A49E /* dots.cpp */; };
+		5FB27FE61BBB4DD200FAD1C6 /* fbm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC661170310E00A8A49E /* fbm.cpp */; };
+		5FB27FE71BBB4DD200FAD1C6 /* imagemap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC681170310E00A8A49E /* imagemap.cpp */; };
+		5FB27FE81BBB4DD200FAD1C6 /* marble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC6A1170310E00A8A49E /* marble.cpp */; };
+		5FB27FE91BBB4DD200FAD1C6 /* mix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC6C1170310E00A8A49E /* mix.cpp */; };
+		5FB27FEA1BBB4DD200FAD1C6 /* scale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC6E1170310E00A8A49E /* scale.cpp */; };
+		5FB27FEB1BBB4DD200FAD1C6 /* uv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC701170310E00A8A49E /* uv.cpp */; };
+		5FB27FEC1BBB4DD200FAD1C6 /* windy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC721170310E00A8A49E /* windy.cpp */; };
+		5FB27FED1BBB4DD200FAD1C6 /* wrinkled.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC741170310E00A8A49E /* wrinkled.cpp */; };
+		5FB27FEE1BBB4DD200FAD1C6 /* exponential.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC771170310E00A8A49E /* exponential.cpp */; };
+		5FB27FEF1BBB4DD200FAD1C6 /* homogeneous.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC791170310E00A8A49E /* homogeneous.cpp */; };
+		5FB27FF01BBB4DD200FAD1C6 /* volumegrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EC7B1170310E00A8A49E /* volumegrid.cpp */; };
+		5FB27FF11BBB4DD200FAD1C6 /* pbrtparse.yy in Sources */ = {isa = PBXBuildFile; fileRef = B1D8EB92117030F200A8A49E /* pbrtparse.yy */; };
+		5FB27FF21BBB4DD200FAD1C6 /* shinymetal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B19397B912083210008317C5 /* shinymetal.cpp */; };
+		5FB27FF31BBB4DD200FAD1C6 /* fileutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B130248C1236EE5100206AC7 /* fileutil.cpp */; };
+		5FB27FF41BBB4DD200FAD1C6 /* targa.c in Sources */ = {isa = PBXBuildFile; fileRef = B13B5763161245F5008FFA44 /* targa.c */; };
 		B130248E1236EE5100206AC7 /* fileutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B130248C1236EE5100206AC7 /* fileutil.cpp */; };
 		B13B5765161245F5008FFA44 /* targa.c in Sources */ = {isa = PBXBuildFile; fileRef = B13B5763161245F5008FFA44 /* targa.c */; };
 		B19397BB12083210008317C5 /* shinymetal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B19397B912083210008317C5 /* shinymetal.cpp */; };
@@ -132,6 +254,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
+		5FB27FF71BBB4DD200FAD1C6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.lex;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILES_DIR)/Lex/$(INPUT_FILE_BASE).cpp",
+			);
+			script = "cd \"$DERIVED_FILES_DIR/Lex\" && /usr/bin/flex -o \"$DERIVED_FILES_DIR/Lex/$INPUT_FILE_BASE.cpp\" \"$INPUT_FILE_PATH\" ";
+		};
+		5FB27FF81BBB4DD200FAD1C6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.yacc;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILES_DIR)/Yacc/$(INPUT_FILE_BASE).hpp",
+				"$(DERIVED_FILES_DIR)/Yacc/$(INPUT_FILE_BASE).cpp",
+			);
+			script = "cd \"$DERIVED_FILES_DIR/Yacc\" && /usr/bin/bison -d -v -t \"$INPUT_FILE_PATH\" -o \"$DERIVED_FILES_DIR/Yacc/$INPUT_FILE_BASE.cpp\" &&  /bin/mv \"$DERIVED_FILES_DIR/Yacc/$INPUT_FILE_BASE.hpp\" \"$DERIVED_FILES_DIR/Yacc/$INPUT_FILE_BASE.hh\"";
+		};
 		B1E1BB511177B8CF00337ECE /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.proxy.script;
@@ -156,6 +299,15 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		5FB27FF61BBB4DD200FAD1C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8DD76F690486A84900D96B5E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 8;
@@ -168,6 +320,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5FB27FFD1BBB4DD200FAD1C6 /* pbrt copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pbrt copy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B130248C1236EE5100206AC7 /* fileutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fileutil.cpp; sourceTree = "<group>"; };
 		B130248D1236EE5100206AC7 /* fileutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileutil.h; sourceTree = "<group>"; };
 		B13B5763161245F5008FFA44 /* targa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = targa.c; sourceTree = "<group>"; };
@@ -417,6 +570,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5FB27FF51BBB4DD200FAD1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD76F660486A84900D96B5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,6 +622,7 @@
 			isa = PBXGroup;
 			children = (
 				B1D8ECE2117032E500A8A49E /* pbrt */,
+				5FB27FFD1BBB4DD200FAD1C6 /* pbrt copy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -819,6 +980,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5FB27F791BBB4DD200FAD1C6 /* pbrtEXR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FB27FF91BBB4DD200FAD1C6 /* Build configuration list for PBXNativeTarget "pbrtEXR" */;
+			buildPhases = (
+				5FB27F7A1BBB4DD200FAD1C6 /* Sources */,
+				5FB27FF51BBB4DD200FAD1C6 /* Frameworks */,
+				5FB27FF61BBB4DD200FAD1C6 /* CopyFiles */,
+			);
+			buildRules = (
+				5FB27FF71BBB4DD200FAD1C6 /* PBXBuildRule */,
+				5FB27FF81BBB4DD200FAD1C6 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = pbrtEXR;
+			productInstallPath = "$(HOME)/bin";
+			productName = pbrt;
+			productReference = 5FB27FFD1BBB4DD200FAD1C6 /* pbrt copy */;
+			productType = "com.apple.product-type.tool";
+		};
 		8DD76F620486A84900D96B5E /* pbrt */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "pbrt" */;
@@ -859,11 +1040,141 @@
 			projectRoot = "";
 			targets = (
 				8DD76F620486A84900D96B5E /* pbrt */,
+				5FB27F791BBB4DD200FAD1C6 /* pbrtEXR */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5FB27F7A1BBB4DD200FAD1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB27F7B1BBB4DD200FAD1C6 /* bvh.cpp in Sources */,
+				5FB27F7C1BBB4DD200FAD1C6 /* grid.cpp in Sources */,
+				5FB27F7D1BBB4DD200FAD1C6 /* kdtreeaccel.cpp in Sources */,
+				5FB27F7E1BBB4DD200FAD1C6 /* environment.cpp in Sources */,
+				5FB27F7F1BBB4DD200FAD1C6 /* orthographic.cpp in Sources */,
+				5FB27F801BBB4DD200FAD1C6 /* perspective.cpp in Sources */,
+				5FB27F811BBB4DD200FAD1C6 /* api.cpp in Sources */,
+				5FB27F821BBB4DD200FAD1C6 /* camera.cpp in Sources */,
+				5FB27F831BBB4DD200FAD1C6 /* diffgeom.cpp in Sources */,
+				5FB27F841BBB4DD200FAD1C6 /* dtrace.d in Sources */,
+				5FB27F851BBB4DD200FAD1C6 /* error.cpp in Sources */,
+				5FB27F861BBB4DD200FAD1C6 /* film.cpp in Sources */,
+				5FB27F871BBB4DD200FAD1C6 /* filter.cpp in Sources */,
+				5FB27F881BBB4DD200FAD1C6 /* floatfile.cpp in Sources */,
+				5FB27F891BBB4DD200FAD1C6 /* geometry.cpp in Sources */,
+				5FB27F8A1BBB4DD200FAD1C6 /* imageio.cpp in Sources */,
+				5FB27F8B1BBB4DD200FAD1C6 /* integrator.cpp in Sources */,
+				5FB27F8C1BBB4DD200FAD1C6 /* intersection.cpp in Sources */,
+				5FB27F8D1BBB4DD200FAD1C6 /* light.cpp in Sources */,
+				5FB27F8E1BBB4DD200FAD1C6 /* material.cpp in Sources */,
+				5FB27F8F1BBB4DD200FAD1C6 /* memory.cpp in Sources */,
+				5FB27F901BBB4DD200FAD1C6 /* montecarlo.cpp in Sources */,
+				5FB27F911BBB4DD200FAD1C6 /* parallel.cpp in Sources */,
+				5FB27F921BBB4DD200FAD1C6 /* paramset.cpp in Sources */,
+				5FB27F931BBB4DD200FAD1C6 /* parser.cpp in Sources */,
+				5FB27F941BBB4DD200FAD1C6 /* pbrtlex.ll in Sources */,
+				5FB27F951BBB4DD200FAD1C6 /* primitive.cpp in Sources */,
+				5FB27F961BBB4DD200FAD1C6 /* probes.cpp in Sources */,
+				5FB27F971BBB4DD200FAD1C6 /* progressreporter.cpp in Sources */,
+				5FB27F981BBB4DD200FAD1C6 /* quaternion.cpp in Sources */,
+				5FB27F991BBB4DD200FAD1C6 /* reflection.cpp in Sources */,
+				5FB27F9A1BBB4DD200FAD1C6 /* renderer.cpp in Sources */,
+				5FB27F9B1BBB4DD200FAD1C6 /* rng.cpp in Sources */,
+				5FB27F9C1BBB4DD200FAD1C6 /* sampler.cpp in Sources */,
+				5FB27F9D1BBB4DD200FAD1C6 /* scene.cpp in Sources */,
+				5FB27F9E1BBB4DD200FAD1C6 /* sh.cpp in Sources */,
+				5FB27F9F1BBB4DD200FAD1C6 /* shape.cpp in Sources */,
+				5FB27FA01BBB4DD200FAD1C6 /* shrots.cpp in Sources */,
+				5FB27FA11BBB4DD200FAD1C6 /* spectrum.cpp in Sources */,
+				5FB27FA21BBB4DD200FAD1C6 /* texture.cpp in Sources */,
+				5FB27FA31BBB4DD200FAD1C6 /* timer.cpp in Sources */,
+				5FB27FA41BBB4DD200FAD1C6 /* transform.cpp in Sources */,
+				5FB27FA51BBB4DD200FAD1C6 /* volume.cpp in Sources */,
+				5FB27FA61BBB4DD200FAD1C6 /* image.cpp in Sources */,
+				5FB27FA71BBB4DD200FAD1C6 /* box.cpp in Sources */,
+				5FB27FA81BBB4DD200FAD1C6 /* gaussian.cpp in Sources */,
+				5FB27FA91BBB4DD200FAD1C6 /* mitchell.cpp in Sources */,
+				5FB27FAA1BBB4DD200FAD1C6 /* sinc.cpp in Sources */,
+				5FB27FAB1BBB4DD200FAD1C6 /* triangle.cpp in Sources */,
+				5FB27FAC1BBB4DD200FAD1C6 /* ambientocclusion.cpp in Sources */,
+				5FB27FAD1BBB4DD200FAD1C6 /* diffuseprt.cpp in Sources */,
+				5FB27FAE1BBB4DD200FAD1C6 /* dipolesubsurface.cpp in Sources */,
+				5FB27FAF1BBB4DD200FAD1C6 /* directlighting.cpp in Sources */,
+				5FB27FB01BBB4DD200FAD1C6 /* emission.cpp in Sources */,
+				5FB27FB11BBB4DD200FAD1C6 /* glossyprt.cpp in Sources */,
+				5FB27FB21BBB4DD200FAD1C6 /* igi.cpp in Sources */,
+				5FB27FB31BBB4DD200FAD1C6 /* irradiancecache.cpp in Sources */,
+				5FB27FB41BBB4DD200FAD1C6 /* path.cpp in Sources */,
+				5FB27FB51BBB4DD200FAD1C6 /* photonmap.cpp in Sources */,
+				5FB27FB61BBB4DD200FAD1C6 /* single.cpp in Sources */,
+				5FB27FB71BBB4DD200FAD1C6 /* useprobes.cpp in Sources */,
+				5FB27FB81BBB4DD200FAD1C6 /* whitted.cpp in Sources */,
+				5FB27FB91BBB4DD200FAD1C6 /* diffuse.cpp in Sources */,
+				5FB27FBA1BBB4DD200FAD1C6 /* distant.cpp in Sources */,
+				5FB27FBB1BBB4DD200FAD1C6 /* goniometric.cpp in Sources */,
+				5FB27FBC1BBB4DD200FAD1C6 /* infinite.cpp in Sources */,
+				5FB27FBD1BBB4DD200FAD1C6 /* point.cpp in Sources */,
+				5FB27FBE1BBB4DD200FAD1C6 /* projection.cpp in Sources */,
+				5FB27FBF1BBB4DD200FAD1C6 /* spot.cpp in Sources */,
+				5FB27FC01BBB4DD200FAD1C6 /* pbrt.cpp in Sources */,
+				5FB27FC11BBB4DD200FAD1C6 /* glass.cpp in Sources */,
+				5FB27FC21BBB4DD200FAD1C6 /* kdsubsurface.cpp in Sources */,
+				5FB27FC31BBB4DD200FAD1C6 /* matte.cpp in Sources */,
+				5FB27FC41BBB4DD200FAD1C6 /* measured.cpp in Sources */,
+				5FB27FC51BBB4DD200FAD1C6 /* metal.cpp in Sources */,
+				5FB27FC61BBB4DD200FAD1C6 /* mirror.cpp in Sources */,
+				5FB27FC71BBB4DD200FAD1C6 /* mixmat.cpp in Sources */,
+				5FB27FC81BBB4DD200FAD1C6 /* plastic.cpp in Sources */,
+				5FB27FC91BBB4DD200FAD1C6 /* substrate.cpp in Sources */,
+				5FB27FCA1BBB4DD200FAD1C6 /* subsurface.cpp in Sources */,
+				5FB27FCB1BBB4DD200FAD1C6 /* translucent.cpp in Sources */,
+				5FB27FCC1BBB4DD200FAD1C6 /* uber.cpp in Sources */,
+				5FB27FCD1BBB4DD200FAD1C6 /* aggregatetest.cpp in Sources */,
+				5FB27FCE1BBB4DD200FAD1C6 /* createprobes.cpp in Sources */,
+				5FB27FCF1BBB4DD200FAD1C6 /* metropolis.cpp in Sources */,
+				5FB27FD01BBB4DD200FAD1C6 /* samplerrenderer.cpp in Sources */,
+				5FB27FD11BBB4DD200FAD1C6 /* surfacepoints.cpp in Sources */,
+				5FB27FD21BBB4DD200FAD1C6 /* adaptive.cpp in Sources */,
+				5FB27FD31BBB4DD200FAD1C6 /* bestcandidate.cpp in Sources */,
+				5FB27FD41BBB4DD200FAD1C6 /* halton.cpp in Sources */,
+				5FB27FD51BBB4DD200FAD1C6 /* lowdiscrepancy.cpp in Sources */,
+				5FB27FD61BBB4DD200FAD1C6 /* random.cpp in Sources */,
+				5FB27FD71BBB4DD200FAD1C6 /* stratified.cpp in Sources */,
+				5FB27FD81BBB4DD200FAD1C6 /* cone.cpp in Sources */,
+				5FB27FD91BBB4DD200FAD1C6 /* cylinder.cpp in Sources */,
+				5FB27FDA1BBB4DD200FAD1C6 /* disk.cpp in Sources */,
+				5FB27FDB1BBB4DD200FAD1C6 /* heightfield.cpp in Sources */,
+				5FB27FDC1BBB4DD200FAD1C6 /* hyperboloid.cpp in Sources */,
+				5FB27FDD1BBB4DD200FAD1C6 /* loopsubdiv.cpp in Sources */,
+				5FB27FDE1BBB4DD200FAD1C6 /* nurbs.cpp in Sources */,
+				5FB27FDF1BBB4DD200FAD1C6 /* paraboloid.cpp in Sources */,
+				5FB27FE01BBB4DD200FAD1C6 /* sphere.cpp in Sources */,
+				5FB27FE11BBB4DD200FAD1C6 /* trianglemesh.cpp in Sources */,
+				5FB27FE21BBB4DD200FAD1C6 /* bilerp.cpp in Sources */,
+				5FB27FE31BBB4DD200FAD1C6 /* checkerboard.cpp in Sources */,
+				5FB27FE41BBB4DD200FAD1C6 /* constant.cpp in Sources */,
+				5FB27FE51BBB4DD200FAD1C6 /* dots.cpp in Sources */,
+				5FB27FE61BBB4DD200FAD1C6 /* fbm.cpp in Sources */,
+				5FB27FE71BBB4DD200FAD1C6 /* imagemap.cpp in Sources */,
+				5FB27FE81BBB4DD200FAD1C6 /* marble.cpp in Sources */,
+				5FB27FE91BBB4DD200FAD1C6 /* mix.cpp in Sources */,
+				5FB27FEA1BBB4DD200FAD1C6 /* scale.cpp in Sources */,
+				5FB27FEB1BBB4DD200FAD1C6 /* uv.cpp in Sources */,
+				5FB27FEC1BBB4DD200FAD1C6 /* windy.cpp in Sources */,
+				5FB27FED1BBB4DD200FAD1C6 /* wrinkled.cpp in Sources */,
+				5FB27FEE1BBB4DD200FAD1C6 /* exponential.cpp in Sources */,
+				5FB27FEF1BBB4DD200FAD1C6 /* homogeneous.cpp in Sources */,
+				5FB27FF01BBB4DD200FAD1C6 /* volumegrid.cpp in Sources */,
+				5FB27FF11BBB4DD200FAD1C6 /* pbrtparse.yy in Sources */,
+				5FB27FF21BBB4DD200FAD1C6 /* shinymetal.cpp in Sources */,
+				5FB27FF31BBB4DD200FAD1C6 /* fileutil.cpp in Sources */,
+				5FB27FF41BBB4DD200FAD1C6 /* targa.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD76F640486A84900D96B5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1004,14 +1315,13 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = PBRT_PROBES_NONE;
 				HEADER_SEARCH_PATHS = (
 					"$(DERIVED_FILES_DIR)/Yacc",
 					.,
 				);
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = pbrt;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1021,14 +1331,13 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
-				GCC_PREPROCESSOR_DEFINITIONS = PBRT_PROBES_NONE;
 				HEADER_SEARCH_PATHS = (
 					"$(DERIVED_FILES_DIR)/Yacc",
 					.,
 				);
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = pbrt;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -1041,13 +1350,14 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					PBRT_STATS_NONE,
 					PBRT_HAS_PTHREADS,
+					PBRT_PROBES_NONE,
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ..;
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -1060,14 +1370,119 @@
 					NDEBUG,
 					PBRT_STATS_NONE,
 					PBRT_HAS_PTHREADS,
+					PBRT_PROBES_NONE,
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ..;
+				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Release;
+		};
+		5FB27FFA1BBB4DD200FAD1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					PBRT_STATS_NONE,
+					PBRT_HAS_PTHREADS,
+					PBRT_PROBES_NONE,
+					PBRT_HAS_OPENEXR,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(DERIVED_FILES_DIR)/Yacc",
+					.,
+					/usr/local/include/OpenEXR,
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lIex",
+					"-lIlmImf",
+					"-lIlmThread",
+					"-lImath",
+					"-lIex",
+					"-lHalf",
+					"-lz",
+				);
+				PRODUCT_NAME = pbrtEXR;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5FB27FFB1BBB4DD200FAD1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					PBRT_STATS_NONE,
+					PBRT_HAS_PTHREADS,
+					PBRT_PROBES_NONE,
+					PBRT_HAS_OPENEXR,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(DERIVED_FILES_DIR)/Yacc",
+					.,
+					/usr/local/include/OpenEXR,
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lIex",
+					"-lIlmImf",
+					"-lIlmThread",
+					"-lImath",
+					"-lIex",
+					"-lHalf",
+					"-lz",
+				);
+				PRODUCT_NAME = pbrtEXR;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5FB27FFC1BBB4DD200FAD1C6 /* dtrace */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					PBRT_STATS_DTRACE,
+					PBRT_HAS_PTHREADS,
+					PBRT_HAS_OPENEXR,
+					PBRT_PROBES_NONE,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(DERIVED_FILES_DIR)/Yacc",
+					.,
+					/usr/local/include/OpenEXR,
+				);
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lIex",
+					"-lIlmImf",
+					"-lIlmThread",
+					"-lImath",
+					"-lIex",
+					"-lHalf",
+					"-lz",
+				);
+				PRODUCT_NAME = pbrtEXR;
+				SDKROOT = macosx;
+			};
+			name = dtrace;
 		};
 		B18C76E91189CC6400AEF213 /* dtrace */ = {
 			isa = XCBuildConfiguration;
@@ -1078,12 +1493,13 @@
 					NDEBUG,
 					PBRT_STATS_DTRACE,
 					PBRT_HAS_PTHREADS,
+					PBRT_PROBES_NONE,
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = ..;
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = dtrace;
 		};
@@ -1093,14 +1509,13 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
-				GCC_PREPROCESSOR_DEFINITIONS = PBRT_PROBES_NONE;
 				HEADER_SEARCH_PATHS = (
 					"$(DERIVED_FILES_DIR)/Yacc",
 					.,
 				);
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = pbrt;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = dtrace;
 		};
@@ -1123,6 +1538,16 @@
 				1DEB923608733DC60010E9CD /* Debug */,
 				1DEB923708733DC60010E9CD /* Release */,
 				B18C76E91189CC6400AEF213 /* dtrace */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FB27FF91BBB4DD200FAD1C6 /* Build configuration list for PBXNativeTarget "pbrtEXR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB27FFA1BBB4DD200FAD1C6 /* Debug */,
+				5FB27FFB1BBB4DD200FAD1C6 /* Release */,
+				5FB27FFC1BBB4DD200FAD1C6 /* dtrace */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
