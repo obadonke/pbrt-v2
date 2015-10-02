@@ -747,9 +747,6 @@ void pbrtScale(float sx, float sy, float sz) {
 void pbrtLookAt(float ex, float ey, float ez, float lx, float ly,
         float lz, float ux, float uy, float uz) {
     VERIFY_INITIALIZED("LookAt");
-    FOR_ACTIVE_TRANSFORMS({ Warning("This version of pbrt fixes a bug in the LookAt transformation.\n"
-                                    "If your rendered images unexpectedly change, add a \"Scale -1 1 1\"\n"
-                                    "to the start of your scene file."); break; })
     FOR_ACTIVE_TRANSFORMS(curTransform[i] =
         curTransform[i] * LookAt(Point(ex, ey, ez), Point(lx, ly, lz), Vector(ux, uy, uz));)
 }
